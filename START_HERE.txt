@@ -1,0 +1,29 @@
+UPDATED UFC MATLAB TOOLKIT - v2
+
+1. Extract the ENTIRE ZIP into a new folder.
+2. In MATLAB, open START_UFC_V2.m from the extracted UFC_MATLAB_Toolkit_V2 folder.
+3. Press Run. It selects this folder, clears cached functions, confirms the
+   correct scripts are selected, then asks for the two fighter names.
+   The Command Window will say UFC TOOLKIT V2 IS ACTIVE.
+
+You do not need to delete the old ZIP or old extracted folder. MATLAB uses
+the extracted .m files, not the ZIP. Keep this new folder as Current Folder
+while using the toolkit. Run START_UFC_V2 again to switch back from an old copy.
+
+Once V2 is active, you can also run:
+
+   compare_ufc('Alexander Volkanovski', 'Movsar Evloev')
+
+All required data and fitted parameters are included. No Python, extra
+MATLAB toolboxes, training, or further downloads are needed for normal use.
+
+Prompt for names:            compare_ufc
+See validation:             review_model_v2
+Latest 50 historical bets:   ufc_backtest_v2('LastN', 50, 'Stake', 10)
+Check MATLAB installation:  ufc_selftest
+
+Select the original model with 'Model', 'baseline' in compare_ufc.
+Fight statistics end June 27, 2026. Age and recency advance on the forecast
+date, using the recorded histories available in the dataset.
+
+Requires MATLAB R2021a or newer. Full instructions are in README.md.
